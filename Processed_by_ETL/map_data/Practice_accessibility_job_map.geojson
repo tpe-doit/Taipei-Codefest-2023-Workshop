@@ -1,84 +1,1393 @@
 {
-"type": "FeatureCollection",
-"name": "accessibility_job_new",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "Year": 112, "name": "財團法人心路社會福利基金會", "type": "綜合障別", "business item": "職業重建服務", "contact": "劉雪蓉\n陳仕閎", "telephone": "2239-5319轉210、212", "address.1": "臺北市中山區吉林路364號4樓", "lng": 121.5302099946561, "lat": 25.064069998946067 }, "geometry": { "type": "Point", "coordinates": [ 121.530209994656104, 25.064069998946067 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "財團法人伊甸社會福利基金會", "type": "綜合障別", "business item": "職業重建服務", "contact": "邱千祝\n黃俊瑜", "telephone": "2788-2656", "address.1": "基金會(公文)臺北市文山區萬美街1段55號3樓", "lng": 121.56812000161416, "lat": 25.002329989803169 }, "geometry": { "type": "Point", "coordinates": [ 121.568120001614162, 25.002329989803169 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "財團法人第一社會福利基金會", "type": "綜合障別", "business item": "職業重建服務", "contact": "劉正凱\n郭黛琳", "telephone": "2722-4136轉880", "address.1": "臺北市信義區信義路5段150巷342弄17之7號", "lng": 121.57052996641517, "lat": 25.02678000136595 }, "geometry": { "type": "Point", "coordinates": [ 121.570529966415165, 25.02678000136595 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "社團法人台北市視障生活品質福利促進會", "type": "綜合障別", "business item": "職業重建服務", "contact": "洪建銘", "telephone": "2558-7370", "address.1": "臺北市大同區華陰街39號", "lng": 121.51925996016678, "lat": 25.049399992008414 }, "geometry": { "type": "Point", "coordinates": [ 121.519259960166778, 25.049399992008414 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "台北市康復之友協會", "type": "綜合障別", "business item": "職業重建服務", "contact": "李冠儀 李宗翰  ", "telephone": "27652947轉244、243", "address.1": "臺北市松山區八德路4段604號2樓之6", "lng": 121.5727000411473, "lat": 25.04977998558887 }, "geometry": { "type": "Point", "coordinates": [ 121.5727000411473, 25.04977998558887 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": " 中華民國腦性麻痺協會", "type": "綜合障別", "business item": "職業重建服務", "contact": "蕭鎮祥\n劉于綺", "telephone": "2898-5509", "address.1": "臺北市中山區民生東路1段42號5樓之5", "lng": 121.5244300018644, "lat": 25.057930003412963 }, "geometry": { "type": "Point", "coordinates": [ 121.524430001864403, 25.057930003412963 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "財團法人育成社會福利基金會", "type": "綜合障別", "business item": "職業重建服務", "contact": "王彤庠 楊瑾?", "telephone": "基金會：2706-2686\n辦公室：8773-8327轉18、12", "address.1": "臺北市大安區建國南路1段319號2樓", "lng": 121.5382100183229, "lat": 25.034950010029107 }, "geometry": { "type": "Point", "coordinates": [ 121.5382100183229, 25.034950010029107 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "財團法人喜憨兒社會福利基金會", "type": "綜合障別", "business item": "職業重建服務", "contact": "陳雅雯 林揚", "telephone": "2720-2371轉10、23", "address.1": "臺北市信義區信義路四段415號6樓", "lng": 121.55952997578288, "lat": 25.033360004906243 }, "geometry": { "type": "Point", "coordinates": [ 121.55952997578288, 25.033360004906243 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "社團法人台北市視障者家長協會", "type": "綜合障別", "business item": "職業重建服務", "contact": "江盛維", "telephone": "2717-7722轉55", "address.1": "臺北市松山區敦化北路155巷76號1樓", "lng": 121.55213884399052, "lat": 25.054289107741987 }, "geometry": { "type": "Point", "coordinates": [ 121.552138843990519, 25.054289107741987 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "社團法人臺灣職能治療學會", "type": "綜合障別", "business item": "職業輔導評量服務", "contact": "林小姐", "telephone": "(02)2391-1006", "address.1": "臺北市中正區忠孝東路2段122號11樓之2", "lng": 121.53148999509006, "lat": 25.04248001847532 }, "geometry": { "type": "Point", "coordinates": [ 121.531489995090055, 25.04248001847532 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "國立陽明交通大學", "type": "綜合障別", "business item": "職務再設計", "contact": "王小姐", "telephone": "2874-3415分機227", "address.1": "台北市北投區石牌路2段322號B1(多功能輔具資源中心)", "lng": 121.52287265059471, "lat": 25.120641974750104 }, "geometry": { "type": "Point", "coordinates": [ 121.522872650594707, 25.120641974750104 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "社團法人中華民國腦性麻痺協會附設身心障礙者就業服務中心", "type": "綜合障別", "business item": "立案之就業服務機構", "contact": "100年 6月13 日", "telephone": "暫不提供", "address.1": "臺北市北投區三合街2段427號1樓", "lng": 121.50264996173917, "lat": 25.126530013571735 }, "geometry": { "type": "Point", "coordinates": [ 121.502649961739166, 25.126530013571735 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "財團法人伊甸社會福利基金會附設台北市私立恩望身心障礙者人力資源服務中心", "type": "綜合障別", "business item": "立案之就業服務機構", "contact": "100年 9 月 19 日", "telephone": "暫不提供", "address.1": "臺北市南港區忠孝東路6段85號3樓", "lng": 121.58466001115028, "lat": 25.048180006001232 }, "geometry": { "type": "Point", "coordinates": [ 121.584660011150277, 25.048180006001232 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "財團法人心路社會福利基金會附設身心障礙者就業服務中心", "type": "綜合障別", "business item": "立案之就業服務機構", "contact": "101 年 1 月 6 日", "telephone": "暫不提供", "address.1": "臺北市文山區萬和街8號", "lng": 121.56776997333752, "lat": 25.001930005383642 }, "geometry": { "type": "Point", "coordinates": [ 121.567769973337519, 25.001930005383642 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "財團法人育成社會福利基金會附設身心障礙者就業服務中心", "type": "綜合障別", "business item": "立案之就業服務機構", "contact": "101 年 1 月 18 日", "telephone": "暫不提供", "address.1": "臺北市大安區建國南路1段175巷33號1樓", "lng": 121.53897997994858, "lat": 25.040960002243963 }, "geometry": { "type": "Point", "coordinates": [ 121.538979979948579, 25.040960002243963 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "臺北市立聯合醫院附設身心障礙者就業服務中心", "type": "綜合障別", "business item": "立案之就業服務機構", "contact": "101 年 2 月 16 日", "telephone": "暫不提供", "address.1": "臺北市大同區鄭州路145號（中興院區）、臺北市信義區松德路309號（松德院區）", "lng": 121.50889003719618, "lat": 25.05069000881663 }, "geometry": { "type": "Point", "coordinates": [ 121.508890037196181, 25.05069000881663 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "愛加倍社會福利關懷協會附設身心障礙者就業服務中心", "type": "綜合障別", "business item": "立案之就業服務機構", "contact": "101 年 2 月 21 日", "telephone": "暫不提供", "address.1": "臺北市大同區昌吉街55號2樓205室", "lng": 121.51560000214522, "lat": 25.066009990436029 }, "geometry": { "type": "Point", "coordinates": [ 121.51560000214522, 25.066009990436029 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "財團法人第一社會福利基金會附設第一身心障礙者就業服務中心", "type": "綜合障別", "business item": "立案之就業服務機構", "contact": "101 年 2 月 22 日", "telephone": "暫不提供", "address.1": "臺北市信義路5段150巷316號7樓", "lng": 121.56959999425784, "lat": 25.026910004684201 }, "geometry": { "type": "Point", "coordinates": [ 121.569599994257842, 25.026910004684201 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "社團法人中華民國視障經穴按摩推廣協會附設身心障礙者就業服務中心", "type": "綜合障別", "business item": "立案之就業服務機構", "contact": "101年 3 月13 日", "telephone": "暫不提供", "address.1": "臺北市大同區雙連街11巷21號1樓", "lng": 121.51992003504182, "lat": 25.05832001336772 }, "geometry": { "type": "Point", "coordinates": [ 121.519920035041821, 25.05832001336772 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "社團法人中華民國聽障人協會附設身心障礙者就業服務中心", "type": "綜合障別", "business item": "立案之就業服務機構", "contact": "101年 4 月 17 日", "telephone": "暫不提供", "address.1": "臺北市士林區承德路4段58巷10弄6號1樓", "lng": 121.52230996709426, "lat": 25.081999979485762 }, "geometry": { "type": "Point", "coordinates": [ 121.522309967094259, 25.081999979485762 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "社團法人台北市視障生活品質福利促進會附設身心障礙者就業服務中心", "type": "綜合障別", "business item": "立案之就業服務機構", "contact": "101年 5 月 31 日", "telephone": "暫不提供", "address.1": "臺北市大同區華陰街39號", "lng": 121.51925996016678, "lat": 25.049399992008414 }, "geometry": { "type": "Point", "coordinates": [ 121.519259960166778, 25.049399992008414 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "台北榮民總醫院附設身心障礙者就業服務中心", "type": "綜合障別", "business item": "立案之就業服務機構", "contact": "101年 11 月 16日", "telephone": "暫不提供", "address.1": "臺北市石牌路2段201號", "lng": 121.52141000215028, "lat": 25.11985998839134 }, "geometry": { "type": "Point", "coordinates": [ 121.521410002150276, 25.11985998839134 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "台北市自閉症家長協會附設身心障礙者就業服務中心", "type": "綜合障別", "business item": "立案之就業服務機構", "contact": "101年 11 月 16日", "telephone": "暫不提供", "address.1": "臺北市大同區延平北路4段115號1樓 ", "lng": 121.51099003921776, "lat": 25.071439996860661 }, "geometry": { "type": "Point", "coordinates": [ 121.510990039217759, 25.071439996860661 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "社團法人台北市康復之友協會附設身心障礙者就業服務中心", "type": "綜合障別", "business item": "立案之就業服務機構", "contact": "101年 11 月 26日", "telephone": "暫不提供", "address.1": "臺北市松山區八德路4段604號2樓之6", "lng": 121.5727000411473, "lat": 25.04977998558887 }, "geometry": { "type": "Point", "coordinates": [ 121.5727000411473, 25.04977998558887 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "財團法人中華民國唐氏症基金會附設麟光身心障礙者就業服務中心", "type": "綜合障別", "business item": "立案之就業服務機構", "contact": "102年 3 月 8 日", "telephone": "暫不提供", "address.1": "臺北市信義區和平東路3段391巷19號1樓", "lng": 121.55841996034536, "lat": 25.020180006986564 }, "geometry": { "type": "Point", "coordinates": [ 121.558419960345361, 25.020180006986564 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "社團法人台北市視障者家長協會附設身心障礙者就業服務中心　", "type": "綜合障別", "business item": "立案之就業服務機構", "contact": "102年6月4日", "telephone": "暫不提供", "address.1": "臺北市松山區敦化北路155巷76號1樓", "lng": 121.55213884399052, "lat": 25.054289107741987 }, "geometry": { "type": "Point", "coordinates": [ 121.552138843990519, 25.054289107741987 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "財團法人喜憨兒社會福利基金會附設身心障礙者就業服務中心", "type": "綜合障別", "business item": "立案之就業服務機構", "contact": "106年9月27日", "telephone": "暫不提供", "address.1": "臺北市信義區仁愛路4段452巷13號1樓", "lng": 121.55931003464354, "lat": 25.036679992935007 }, "geometry": { "type": "Point", "coordinates": [ 121.559310034643545, 25.036679992935007 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "ENJOY臺北餐廳", "type": "綜合障別", "business item": "餐飲業", "contact": "許小姐", "telephone": "2720-5208", "address.1": "臺北市信義區市府路1號1樓", "lng": 121.56441997809544, "lat": 25.03751998536173 }, "geometry": { "type": "Point", "coordinates": [ 121.564419978095444, 25.03751998536173 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "勝利基金會辦理樸樹咖啡捷運古亭店\n(捷運古亭庇護工場)", "type": "綜合障別", "business item": "餐飲業", "contact": "謝佳男", "telephone": "2368-9093", "address.1": "臺北市中正區羅斯福路2段164-1號", "lng": 121.52330003749734, "lat": 25.025530008145395 }, "geometry": { "type": "Point", "coordinates": [ 121.523300037497336, 25.025530008145395 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "EasyCoffee\n(捷運善導寺庇護工場)", "type": "綜合障別", "business item": "餐飲業", "contact": "王鵬驊", "telephone": "2395-6102", "address.1": "臺北市中正區忠孝東路1段58號B1", "lng": 121.52358379035144, "lat": 25.044654617287105 }, "geometry": { "type": "Point", "coordinates": [ 121.523583790351438, 25.044654617287105 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "樂芽一號庇護工場\n(富陽1店庇護工場)", "type": "綜合障別", "business item": "食品製迼業、批發及零售業", "contact": "李林璘", "telephone": "8732-8101", "address.1": "臺北市信義區和平東路3段341巷3號1樓", "lng": 121.55774999482452, "lat": 25.021310013263161 }, "geometry": { "type": "Point", "coordinates": [ 121.557749994824519, 25.021310013263161 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "有度立體書店\n(富陽2店庇護工場)", "type": "綜合障別", "business item": "印刷品裝訂、圖書出版業、零售業", "contact": "黃大明", "telephone": "8732-4909", "address.1": "臺北市信義區和平東路3段341巷7號1樓", "lng": 121.55698003319884, "lat": 25.020870005255968 }, "geometry": { "type": "Point", "coordinates": [ 121.55698003319884, 25.020870005255968 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "育成洗車中心\n(建忠庇護工場)", "type": "綜合障別", "business item": "汽車美容、清潔用品零售業、未分類其他食品、飲料及箊草製品零售", "contact": "鄭育明\n尤玉慧", "telephone": "2711-5842\n2740-7418", "address.1": "臺北市大安區建國南路、濟南路口高架橋下", "lng": 121.53477, "lat": 25.02634 }, "geometry": { "type": "Point", "coordinates": [ 121.53477, 25.02634 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "光仁二手商品館大直店\n(捷運大直庇護工場)", "type": "綜合障別", "business item": "零售業", "contact": "謝佩樺", "telephone": "8509-8601", "address.1": "臺北市中山區北安路534-1號", "lng": 121.54688000751048, "lat": 25.079660003576265 }, "geometry": { "type": "Point", "coordinates": [ 121.546880007510481, 25.079660003576265 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "育成蕃薯藤\n(忠孝庇護工場)", "type": "綜合障別", "business item": "餐飲業、西點麵包零售、清潔用品零售業、未分類其他食品、飲料及箊草製品零售", "contact": "黃正珀", "telephone": "2752-1785", "address.1": "臺北市大安區建國南路一段181號", "lng": 121.53769000504992, "lat": 25.040560017824436 }, "geometry": { "type": "Point", "coordinates": [ 121.537690005049924, 25.040560017824436 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "地熱谷小舖\n(地熱谷庇護工場)", "type": "綜合障別", "business item": "零售業", "contact": "趙哲晨", "telephone": "2895-0556", "address.1": "臺北市北投區中山路30-10號2樓", "lng": 121.51142003085069, "lat": 25.137820018053901 }, "geometry": { "type": "Point", "coordinates": [ 121.511420030850687, 25.137820018053901 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "愛不囉嗦庇護工場南港店\n(捷運南港展覽館庇護工場)", "type": "綜合障別", "business item": "食品製造業、零售業?", "contact": "王文芳", "telephone": "2653-8321", "address.1": "臺北市南港區研究院路1段1號B2(捷運南港展覽館站6號出口內)", "lng": 121.61669754034349, "lat": 25.054881438952428 }, "geometry": { "type": "Point", "coordinates": [ 121.616697540343495, 25.054881438952428 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "樂芽永續股份有限公司青年1庇護工場", "type": "綜合障別", "business item": "食品製造業、批發及零售業", "contact": "倪佩玲", "telephone": "7752-2518", "address.1": "臺北市萬華區青年路152巷6號", "lng": 121.50210999953656, "lat": 25.02123000799736 }, "geometry": { "type": "Point", "coordinates": [ 121.502109999536557, 25.02123000799736 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "樂芽永續股份有限公司青年2庇護工場", "type": "綜合障別", "business item": "食品製造業、批發及零售業", "contact": "倪佩玲", "telephone": "7752-2518", "address.1": "臺北市萬華區青年路152巷14號", "lng": 121.50195996346974, "lat": 25.02106999746573 }, "geometry": { "type": "Point", "coordinates": [ 121.501959963469744, 25.02106999746573 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "光仁選品萬大店\n(萬大庇護工場)", "type": "綜合障別", "business item": "零售業", "contact": "林立婷", "telephone": "2305-0025", "address.1": "臺北市萬華區萬大路423巷38號", "lng": 121.49991000141011, "lat": 25.021080013840034 }, "geometry": { "type": "Point", "coordinates": [ 121.499910001410115, 25.021080013840034 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "第一輔具庇護工場\n(國光國宅庇護工場)", "type": "綜合障別", "business item": "輔具清潔、販售", "contact": "徐佩珊", "telephone": "2303-3366", "address.1": "臺北市萬華區國興路22、24號1樓", "lng": 121.50806382687961, "lat": 25.024479592658501 }, "geometry": { "type": "Point", "coordinates": [ 121.508063826879606, 25.024479592658501 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "神腦國際手機維修庇護工場", "type": "綜合障別", "business item": "個人及家庭用品維修業、零售業", "contact": "郭家銘", "telephone": "2718-6060", "address.1": "臺北市松山區民權東路3段102號1樓", "lng": 121.54471999106217, "lat": 25.061900008032978 }, "geometry": { "type": "Point", "coordinates": [ 121.544719991062166, 25.061900008032978 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "臺北榮民總醫院附設庇護工場", "type": "綜合障別", "business item": "餐飲業、清潔服務業、零售業", "contact": "江明潔", "telephone": "2875-7027\n轉570", "address.1": "臺北市北投區石牌路2段201號", "lng": 121.52141000215028, "lat": 25.11985998839134 }, "geometry": { "type": "Point", "coordinates": [ 121.521410002150276, 25.11985998839134 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "財團法人伊甸社會福利基金會附設阿萬師清潔工作隊", "type": "綜合障別", "business item": "清潔服務業", "contact": "蔡依靜", "telephone": "2230-6670\n轉3405", "address.1": "臺北市文山區萬美街一段55號3樓之7", "lng": 121.56812000161416, "lat": 25.002329989803169 }, "geometry": { "type": "Point", "coordinates": [ 121.568120001614162, 25.002329989803169 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "臺北醫學大學附設醫院樂活屋庇護商店", "type": "綜合障別", "business item": "零售業", "contact": "邱晨瑜", "telephone": "2737-2181\n轉3665", "address.1": "臺北市信義區吳興街252號", "lng": 121.56363995818587, "lat": 25.026630007208624 }, "geometry": { "type": "Point", "coordinates": [ 121.563639958185874, 25.026630007208624 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "財團法人天主教光仁社會福利基金會光仁二手商品館忠孝店", "type": "綜合障別", "business item": "零售業", "contact": "鍾任鴻", "telephone": "2721-8924", "address.1": "臺北市大安區忠孝東路3段217巷2弄14號", "lng": 121.54051001255424, "lat": 25.0422299863036 }, "geometry": { "type": "Point", "coordinates": [ 121.540510012554236, 25.0422299863036 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "財團法人伊甸社會福利基金會附設數位資料處理庇護工場", "type": "綜合障別", "business item": "業務及辦公室支援服務業", "contact": "涂麗茹", "telephone": "2230-8002", "address.1": "臺北市文山區萬美街1段55號3樓之10", "lng": 121.56812000161416, "lat": 25.002329989803169 }, "geometry": { "type": "Point", "coordinates": [ 121.568120001614162, 25.002329989803169 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "財團法人心路社會福利基金會附設心路機動工作隊", "type": "綜合障別", "business item": "清潔服務、業務及辦公室支援服務業", "contact": "張宜勳", "telephone": "2230-6503", "address.1": "臺北市文山區萬美街1段59號", "lng": 121.56772001719465, "lat": 25.002190012020151 }, "geometry": { "type": "Point", "coordinates": [ 121.567720017194645, 25.002190012020151 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "馬偕紀念醫院附設喜樂工作坊", "type": "綜合障別", "business item": "餐飲業、零售業", "contact": "王昔珍", "telephone": "2543-3535\n轉3692", "address.1": "臺北市中山區中山北路2段92號福音樓3樓", "lng": 121.52255999926598, "lat": 25.058880008318862 }, "geometry": { "type": "Point", "coordinates": [ 121.52255999926598, 25.058880008318862 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "糕菲庇護工場", "type": "綜合障別", "business item": "食品製造業、其他餐飲業", "contact": "王淑真", "telephone": "2785-2499", "address.1": "臺北市內湖區行愛路140巷25號", "lng": 121.5793899733477, "lat": 25.0636100000998 }, "geometry": { "type": "Point", "coordinates": [ 121.579389973347702, 25.0636100000998 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "台北市康復之友協會附設勞務服務中心", "type": "綜合障別", "business item": "清潔服務業", "contact": "洪國維", "telephone": "2765-2810\n轉262", "address.1": "臺北市松山區八德路4段604號2樓之6", "lng": 121.5727000411473, "lat": 25.04977998558887 }, "geometry": { "type": "Point", "coordinates": [ 121.5727000411473, 25.04977998558887 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "曦望數位設計印刷庇護工場", "type": "綜合障別", "business item": "產品設計業、排版業、資料處理服務業、影印業、文具零售業、日常用品零售業、理貨包裝業", "contact": "夏逸梅", "telephone": "2309-3138\n轉17", "address.1": "臺北市萬華區西園路2段261巷12弄44號1樓及279-9號1樓", "lng": 121.4919000032786, "lat": 25.024749988235879 }, "geometry": { "type": "Point", "coordinates": [ 121.491900003278602, 25.024749988235879 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "台北市自閉症家長協會附設小貝殼工作坊", "type": "綜合障別", "business item": "其他全新商品零售業", "contact": "廖秀麗", "telephone": "2595-3954", "address.1": "臺北市大同區酒泉街195號", "lng": 121.51202998194476, "lat": 25.07219998402158 }, "geometry": { "type": "Point", "coordinates": [ 121.512029981944764, 25.07219998402158 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "臺北市立聯合醫院附設庇護工場", "type": "綜合障別", "business item": "餐飲業、零售業", "contact": "傅筠惠", "telephone": "2709-3600\n轉5113、3245", "address.1": "臺北市大安區仁愛路4段10號醫療大樓2樓、南棟6樓", "lng": 121.54562003982517, "lat": 25.037660005054281 }, "geometry": { "type": "Point", "coordinates": [ 121.545620039825167, 25.037660005054281 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "三軍總醫院北投分院附設庇護工場", "type": "綜合障別", "business item": "清潔服務業、零售業", "contact": "邱泰楨", "telephone": "2895-9808\n轉603128", "address.1": "臺北市北投區新民路60號", "lng": 121.50971003878384, "lat": 25.139849989274449 }, "geometry": { "type": "Point", "coordinates": [ 121.509710038783837, 25.139849989274449 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "傳玻者文創設計中心", "type": "綜合障別", "business item": "其他專門設計業", "contact": "余玉蓮", "telephone": "2881-2895", "address.1": "臺北市大同區民族西路162巷2、4號1樓", "lng": 121.51535581845302, "lat": 25.068553533668169 }, "geometry": { "type": "Point", "coordinates": [ 121.515355818453017, 25.068553533668169 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "勝利資訊數位辨識處理中心", "type": "綜合障別", "business item": "業務及辦公室支援服務業", "contact": "高季蓉", "telephone": "2733-8174", "address.1": "臺北市信義區基隆路2段149之17號9樓", "lng": 121.55555997116284, "lat": 25.026810008579321 }, "geometry": { "type": "Point", "coordinates": [ 121.555559971162836, 25.026810008579321 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "財團法人喜憨兒社會福利基金會喜憨兒烘焙屋", "type": "綜合障別", "business item": "食品製造業", "contact": "邱小姐\n劉小姐\n吳小姐", "telephone": "光復2725-2759\n中華2344-4265\n勞保2391-9389", "address.1": "臺北市信義區光復南路461號", "lng": 121.55768000593304, "lat": 25.034199997332976 }, "geometry": { "type": "Point", "coordinates": [ 121.557680005933037, 25.034199997332976 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "財團法人台北市自閉兒社會福利基金會附設愛肯樂活工場", "type": "綜合障別", "business item": "飲食成品、零售業", "contact": "卓佳怡", "telephone": "2599-3803", "address.1": "臺北市大同區甘谷街16號2樓", "lng": 121.51120000589231, "lat": 25.052710005572397 }, "geometry": { "type": "Point", "coordinates": [ 121.511200005892306, 25.052710005572397 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "勝利數位設計印刷中心", "type": "綜合障別", "business item": "印刷及其輔助業、文具批發業", "contact": "周德文", "telephone": "2754-0526", "address.1": "臺北市大安區和平東路2段53巷2號9樓", "lng": 121.53841001053269, "lat": 25.02579001478189 }, "geometry": { "type": "Point", "coordinates": [ 121.538410010532687, 25.02579001478189 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "新品文具庇護工場", "type": "綜合障別", "business item": "文具製造業、文具批發業", "contact": "彭中興", "telephone": "2889-1155", "address.1": "臺北市士林區承德路4段180號3樓", "lng": 121.52252999205264, "lat": 25.086800002067719 }, "geometry": { "type": "Point", "coordinates": [ 121.52252999205264, 25.086800002067719 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "勝利便利商店松醫店", "type": "綜合障別", "business item": "零售業", "contact": "張佩鈴", "telephone": "7723-0420", "address.1": "臺北市松山區健康路158號", "lng": 121.55787999814277, "lat": 25.053439985519944 }, "geometry": { "type": "Point", "coordinates": [ 121.557879998142766, 25.053439985519944 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "愛不囉嗦庇護工場", "type": "綜合障別", "business item": "食品製造業、零售業", "contact": "郭麗玉", "telephone": "2586-9321", "address.1": "臺北市大同區承德路3段212之5號1樓", "lng": 121.51806000690816, "lat": 25.071279986329049 }, "geometry": { "type": "Point", "coordinates": [ 121.518060006908158, 25.071279986329049 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "伊果文創印刷庇護工場", "type": "綜合障別", "business item": "印刷及其輔助業、其他專門設計業", "contact": "林子馨", "telephone": "2939-2169", "address.1": "臺北市文山區保儀路9號4樓", "lng": 121.56825000493239, "lat": 24.986919986543668 }, "geometry": { "type": "Point", "coordinates": [ 121.568250004932395, 24.986919986543668 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "第一物業管理庇護工場", "type": "綜合障別", "business item": "清潔服務、複合支援服務業", "contact": "黃荷麗\n", "telephone": "2722-4136\n轉879", "address.1": "臺北市文山區萬隆街54號1樓", "lng": 121.5373500350571, "lat": 25.000719993841244 }, "geometry": { "type": "Point", "coordinates": [ 121.537350035057102, 25.000719993841244 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "勝利便利商店敦中店", "type": "綜合障別", "business item": "零售業", "contact": "李其叡", "telephone": "7713-7209", "address.1": "臺北市松山區敦化北路4巷1號", "lng": 121.54734000635676, "lat": 25.050059983064443 }, "geometry": { "type": "Point", "coordinates": [ 121.547340006356762, 25.050059983064443 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "財團法人台北市勝利社會福利事業基金會SUBWAY仁愛延吉店", "type": "綜合障別", "business item": "餐飲業", "contact": "王書毅", "telephone": "2702-3652", "address.1": "臺北市大安區延吉街228巷3號1樓", "lng": 121.5553400300235, "lat": 25.036939999571501 }, "geometry": { "type": "Point", "coordinates": [ 121.555340030023501, 25.036939999571501 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "樸樹咖啡", "type": "綜合障別", "business item": "餐飲業", "contact": "孫文琪", "telephone": "2306-6308", "address.1": "臺北市萬華區廣州街95-1、95-2、95-3號", "lng": 121.50381999160339, "lat": 25.03662999488256 }, "geometry": { "type": "Point", "coordinates": [ 121.503819991603393, 25.03662999488256 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "勝利加油站\n(大安加油站)", "type": "綜合障別", "business item": "加油站業", "contact": "李志平", "telephone": "2755-5499", "address.1": "臺北市大安區建國南路2段75-1號", "lng": 121.53785001558153, "lat": 25.030969989034801 }, "geometry": { "type": "Point", "coordinates": [ 121.537850015581526, 25.030969989034801 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "陽光加油站\n(市民加油站)", "type": "綜合障別", "business item": "加油站業", "contact": "王顧婷", "telephone": "2752-9929", "address.1": "臺北市大安區建國南路1段57-1號", "lng": 121.53684514372166, "lat": 25.044507546410639 }, "geometry": { "type": "Point", "coordinates": [ 121.536845143721663, 25.044507546410639 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "陽光汽車美容中心\n(建和社會企業)", "type": "綜合障別", "business item": "汽車美容業", "contact": "蔡淞梧", "telephone": "2365-7791", "address.1": "臺北市大安區建國南路2段280號", "lng": 121.53740971420768, "lat": 25.02505001846005 }, "geometry": { "type": "Point", "coordinates": [ 121.537409714207683, 25.02505001846005 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "建北加油站", "type": "綜合障別", "business item": "加油站業", "contact": "王顧婷", "telephone": "2515-0228", "address.1": "臺北市中山區建國北路3段91之1號", "lng": 121.53677000735736, "lat": 25.065699985747088 }, "geometry": { "type": "Point", "coordinates": [ 121.536770007357362, 25.065699985747088 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "勝利廚房\n(臺北社企館1、2F)", "type": "綜合障別", "business item": "餐飲業", "contact": "張湘蓉", "telephone": "2776-6603", "address.1": "臺北市中山區八德路2段174巷28號1、2樓", "lng": 121.55397963156912, "lat": 25.044923332363378 }, "geometry": { "type": "Point", "coordinates": [ 121.553979631569121, 25.044923332363378 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "TaipeiSESquare交流空間\n(臺北社企館3F)", "type": "綜合障別", "business item": "多功能會議廳、空間場地出借", "contact": "魏淑宜", "telephone": "8772-6020", "address.1": "臺北市中山區八德路2段174巷28號3樓", "lng": 121.53818001110956, "lat": 25.045260002391998 }, "geometry": { "type": "Point", "coordinates": [ 121.53818001110956, 25.045260002391998 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "黑暗對話社會企業股份有限公司(臺北社企館4F)", "type": "綜合障別", "business item": "教育課程", "contact": "李芳琦", "telephone": "8772-3100", "address.1": "臺北市中山區八德路2段174巷28號4樓", "lng": 121.53818001110956, "lat": 25.045260002391998 }, "geometry": { "type": "Point", "coordinates": [ 121.53818001110956, 25.045260002391998 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "視障者音樂發展中心\n(臺北社企館5F)", "type": "綜合障別", "business item": "藝文服務、文教服務、樂器/育樂用品出租銷售", "contact": "謝佩君", "telephone": "7730-7388\n轉102", "address.1": "臺北市中山區八德路2段174巷28號5樓", "lng": 121.53818001110956, "lat": 25.045260002391998 }, "geometry": { "type": "Point", "coordinates": [ 121.53818001110956, 25.045260002391998 ] } },
-{ "type": "Feature", "properties": { "Year": 112, "name": "陽光活力中心八德館\n(臺北社企館6、7F)", "type": "綜合障別", "business item": "運動、輕食飲料、運動相關百貨零售", "contact": "李政寧", "telephone": "2772-8816", "address.1": "臺北市中山區八德路2段174巷28號6、7樓", "lng": 121.55397963156912, "lat": 25.044923332363378 }, "geometry": { "type": "Point", "coordinates": [ 121.553979631569121, 25.044923332363378 ] } }
-]
+  "type": "FeatureCollection",
+  "name": "accessibility_job_new",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "財團法人心路社會福利基金會",
+        "type": "綜合障別",
+        "business item": "職業重建服務",
+        "contact": "劉雪蓉\n陳仕閎",
+        "telephone": "2239-5319轉210、212",
+        "address.1": "臺北市中山區吉林路364號4樓",
+        "lng": 121.5302099946561,
+        "lat": 25.064069998946067
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.530209994656104, 25.064069998946067]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "財團法人伊甸社會福利基金會",
+        "type": "綜合障別",
+        "business item": "職業重建服務",
+        "contact": "邱千祝\n黃俊瑜",
+        "telephone": "2788-2656",
+        "address.1": "臺北市文山區萬美街1段55號3樓",
+        "lng": 121.56812000161416,
+        "lat": 25.002329989803169
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.568120001614162, 25.002329989803169]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "財團法人第一社會福利基金會",
+        "type": "綜合障別",
+        "business item": "職業重建服務",
+        "contact": "劉正凱\n郭黛琳",
+        "telephone": "2722-4136轉880",
+        "address.1": "臺北市信義區信義路5段150巷342弄17之7號",
+        "lng": 121.57052996641517,
+        "lat": 25.02678000136595
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.570529966415165, 25.02678000136595]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "社團法人台北市視障生活品質福利促進會",
+        "type": "綜合障別",
+        "business item": "職業重建服務",
+        "contact": "洪建銘",
+        "telephone": "2558-7370",
+        "address.1": "臺北市大同區華陰街39號",
+        "lng": 121.51925996016678,
+        "lat": 25.049399992008414
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.519259960166778, 25.049399992008414]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "台北市康復之友協會",
+        "type": "綜合障別",
+        "business item": "職業重建服務",
+        "contact": "李冠儀 李宗翰  ",
+        "telephone": "27652947轉244、243",
+        "address.1": "臺北市松山區八德路4段604號2樓之6",
+        "lng": 121.5727000411473,
+        "lat": 25.04977998558887
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.5727000411473, 25.04977998558887]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": " 中華民國腦性麻痺協會",
+        "type": "綜合障別",
+        "business item": "職業重建服務",
+        "contact": "蕭鎮祥\n劉于綺",
+        "telephone": "2898-5509",
+        "address.1": "臺北市中山區民生東路1段42號5樓之5",
+        "lng": 121.5244300018644,
+        "lat": 25.057930003412963
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.524430001864403, 25.057930003412963]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "財團法人育成社會福利基金會",
+        "type": "綜合障別",
+        "business item": "職業重建服務",
+        "contact": "王彤庠 楊瑾?",
+        "telephone": "基金會：2706-2686\n辦公室：8773-8327轉18、12",
+        "address.1": "臺北市大安區建國南路1段319號2樓",
+        "lng": 121.5382100183229,
+        "lat": 25.034950010029107
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.5382100183229, 25.034950010029107]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "財團法人喜憨兒社會福利基金會",
+        "type": "綜合障別",
+        "business item": "職業重建服務",
+        "contact": "陳雅雯 林揚",
+        "telephone": "2720-2371轉10、23",
+        "address.1": "臺北市信義區信義路四段415號6樓",
+        "lng": 121.55952997578288,
+        "lat": 25.033360004906243
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.55952997578288, 25.033360004906243]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "社團法人台北市視障者家長協會",
+        "type": "綜合障別",
+        "business item": "職業重建服務",
+        "contact": "江盛維",
+        "telephone": "2717-7722轉55",
+        "address.1": "臺北市松山區敦化北路155巷76號1樓",
+        "lng": 121.55213884399052,
+        "lat": 25.054289107741987
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.552138843990519, 25.054289107741987]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "社團法人臺灣職能治療學會",
+        "type": "綜合障別",
+        "business item": "職業輔導評量服務",
+        "contact": "林小姐",
+        "telephone": "(02)2391-1006",
+        "address.1": "臺北市中正區忠孝東路2段122號11樓之2",
+        "lng": 121.53148999509006,
+        "lat": 25.04248001847532
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.531489995090055, 25.04248001847532]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "國立陽明交通大學",
+        "type": "綜合障別",
+        "business item": "職務再設計",
+        "contact": "王小姐",
+        "telephone": "2874-3415分機227",
+        "address.1": "台北市北投區石牌路2段322號B1(多功能輔具資源中心)",
+        "lng": 121.52287265059471,
+        "lat": 25.120641974750104
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.522872650594707, 25.120641974750104]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "社團法人中華民國腦性麻痺協會附設身心障礙者就業服務中心",
+        "type": "綜合障別",
+        "business item": "立案之就業服務機構",
+        "contact": "100年 6月13 日",
+        "telephone": "暫不提供",
+        "address.1": "臺北市北投區三合街2段427號1樓",
+        "lng": 121.50264996173917,
+        "lat": 25.126530013571735
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.502649961739166, 25.126530013571735]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "財團法人伊甸社會福利基金會附設台北市私立恩望身心障礙者人力資源服務中心",
+        "type": "綜合障別",
+        "business item": "立案之就業服務機構",
+        "contact": "100年 9 月 19 日",
+        "telephone": "暫不提供",
+        "address.1": "臺北市南港區忠孝東路6段85號3樓",
+        "lng": 121.58466001115028,
+        "lat": 25.048180006001232
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.584660011150277, 25.048180006001232]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "財團法人心路社會福利基金會附設身心障礙者就業服務中心",
+        "type": "綜合障別",
+        "business item": "立案之就業服務機構",
+        "contact": "101 年 1 月 6 日",
+        "telephone": "暫不提供",
+        "address.1": "臺北市文山區萬和街8號",
+        "lng": 121.56776997333752,
+        "lat": 25.001930005383642
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.567769973337519, 25.001930005383642]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "財團法人育成社會福利基金會附設身心障礙者就業服務中心",
+        "type": "綜合障別",
+        "business item": "立案之就業服務機構",
+        "contact": "101 年 1 月 18 日",
+        "telephone": "暫不提供",
+        "address.1": "臺北市大安區建國南路1段175巷33號1樓",
+        "lng": 121.53897997994858,
+        "lat": 25.040960002243963
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.538979979948579, 25.040960002243963]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "臺北市立聯合醫院附設身心障礙者就業服務中心",
+        "type": "綜合障別",
+        "business item": "立案之就業服務機構",
+        "contact": "101 年 2 月 16 日",
+        "telephone": "暫不提供",
+        "address.1": "臺北市大同區鄭州路145號（中興院區）、臺北市信義區松德路309號（松德院區）",
+        "lng": 121.50889003719618,
+        "lat": 25.05069000881663
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.508890037196181, 25.05069000881663]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "愛加倍社會福利關懷協會附設身心障礙者就業服務中心",
+        "type": "綜合障別",
+        "business item": "立案之就業服務機構",
+        "contact": "101 年 2 月 21 日",
+        "telephone": "暫不提供",
+        "address.1": "臺北市大同區昌吉街55號2樓205室",
+        "lng": 121.51560000214522,
+        "lat": 25.066009990436029
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.51560000214522, 25.066009990436029]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "財團法人第一社會福利基金會附設第一身心障礙者就業服務中心",
+        "type": "綜合障別",
+        "business item": "立案之就業服務機構",
+        "contact": "101 年 2 月 22 日",
+        "telephone": "暫不提供",
+        "address.1": "臺北市信義路5段150巷316號7樓",
+        "lng": 121.56959999425784,
+        "lat": 25.026910004684201
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.569599994257842, 25.026910004684201]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "社團法人中華民國視障經穴按摩推廣協會附設身心障礙者就業服務中心",
+        "type": "綜合障別",
+        "business item": "立案之就業服務機構",
+        "contact": "101年 3 月13 日",
+        "telephone": "暫不提供",
+        "address.1": "臺北市大同區雙連街11巷21號1樓",
+        "lng": 121.51992003504182,
+        "lat": 25.05832001336772
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.519920035041821, 25.05832001336772]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "社團法人中華民國聽障人協會附設身心障礙者就業服務中心",
+        "type": "綜合障別",
+        "business item": "立案之就業服務機構",
+        "contact": "101年 4 月 17 日",
+        "telephone": "暫不提供",
+        "address.1": "臺北市士林區承德路4段58巷10弄6號1樓",
+        "lng": 121.52230996709426,
+        "lat": 25.081999979485762
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.522309967094259, 25.081999979485762]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "社團法人台北市視障生活品質福利促進會附設身心障礙者就業服務中心",
+        "type": "綜合障別",
+        "business item": "立案之就業服務機構",
+        "contact": "101年 5 月 31 日",
+        "telephone": "暫不提供",
+        "address.1": "臺北市大同區華陰街39號",
+        "lng": 121.51925996016678,
+        "lat": 25.049399992008414
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.519259960166778, 25.049399992008414]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "台北榮民總醫院附設身心障礙者就業服務中心",
+        "type": "綜合障別",
+        "business item": "立案之就業服務機構",
+        "contact": "101年 11 月 16日",
+        "telephone": "暫不提供",
+        "address.1": "臺北市石牌路2段201號",
+        "lng": 121.52141000215028,
+        "lat": 25.11985998839134
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.521410002150276, 25.11985998839134]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "台北市自閉症家長協會附設身心障礙者就業服務中心",
+        "type": "綜合障別",
+        "business item": "立案之就業服務機構",
+        "contact": "101年 11 月 16日",
+        "telephone": "暫不提供",
+        "address.1": "臺北市大同區延平北路4段115號1樓 ",
+        "lng": 121.51099003921776,
+        "lat": 25.071439996860661
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.510990039217759, 25.071439996860661]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "社團法人台北市康復之友協會附設身心障礙者就業服務中心",
+        "type": "綜合障別",
+        "business item": "立案之就業服務機構",
+        "contact": "101年 11 月 26日",
+        "telephone": "暫不提供",
+        "address.1": "臺北市松山區八德路4段604號2樓之6",
+        "lng": 121.5727000411473,
+        "lat": 25.04977998558887
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.5727000411473, 25.04977998558887]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "財團法人中華民國唐氏症基金會附設麟光身心障礙者就業服務中心",
+        "type": "綜合障別",
+        "business item": "立案之就業服務機構",
+        "contact": "102年 3 月 8 日",
+        "telephone": "暫不提供",
+        "address.1": "臺北市信義區和平東路3段391巷19號1樓",
+        "lng": 121.55841996034536,
+        "lat": 25.020180006986564
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.558419960345361, 25.020180006986564]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "社團法人台北市視障者家長協會附設身心障礙者就業服務中心　",
+        "type": "綜合障別",
+        "business item": "立案之就業服務機構",
+        "contact": "102年6月4日",
+        "telephone": "暫不提供",
+        "address.1": "臺北市松山區敦化北路155巷76號1樓",
+        "lng": 121.55213884399052,
+        "lat": 25.054289107741987
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.552138843990519, 25.054289107741987]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "財團法人喜憨兒社會福利基金會附設身心障礙者就業服務中心",
+        "type": "綜合障別",
+        "business item": "立案之就業服務機構",
+        "contact": "106年9月27日",
+        "telephone": "暫不提供",
+        "address.1": "臺北市信義區仁愛路4段452巷13號1樓",
+        "lng": 121.55931003464354,
+        "lat": 25.036679992935007
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.559310034643545, 25.036679992935007]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "ENJOY臺北餐廳",
+        "type": "綜合障別",
+        "business item": "餐飲業",
+        "contact": "許小姐",
+        "telephone": "2720-5208",
+        "address.1": "臺北市信義區市府路1號1樓",
+        "lng": 121.56441997809544,
+        "lat": 25.03751998536173
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.564419978095444, 25.03751998536173]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "勝利基金會辦理樸樹咖啡捷運古亭店\n(捷運古亭庇護工場)",
+        "type": "綜合障別",
+        "business item": "餐飲業",
+        "contact": "謝佳男",
+        "telephone": "2368-9093",
+        "address.1": "臺北市中正區羅斯福路2段164-1號",
+        "lng": 121.52330003749734,
+        "lat": 25.025530008145395
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.523300037497336, 25.025530008145395]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "EasyCoffee\n(捷運善導寺庇護工場)",
+        "type": "綜合障別",
+        "business item": "餐飲業",
+        "contact": "王鵬驊",
+        "telephone": "2395-6102",
+        "address.1": "臺北市中正區忠孝東路1段58號B1",
+        "lng": 121.52358379035144,
+        "lat": 25.044654617287105
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.523583790351438, 25.044654617287105]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "樂芽一號庇護工場\n(富陽1店庇護工場)",
+        "type": "綜合障別",
+        "business item": "食品製迼業、批發及零售業",
+        "contact": "李林璘",
+        "telephone": "8732-8101",
+        "address.1": "臺北市信義區和平東路3段341巷3號1樓",
+        "lng": 121.55774999482452,
+        "lat": 25.021310013263161
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.557749994824519, 25.021310013263161]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "有度立體書店\n(富陽2店庇護工場)",
+        "type": "綜合障別",
+        "business item": "印刷品裝訂、圖書出版業、零售業",
+        "contact": "黃大明",
+        "telephone": "8732-4909",
+        "address.1": "臺北市信義區和平東路3段341巷7號1樓",
+        "lng": 121.55698003319884,
+        "lat": 25.020870005255968
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.55698003319884, 25.020870005255968]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "育成洗車中心\n(建忠庇護工場)",
+        "type": "綜合障別",
+        "business item": "汽車美容、清潔用品零售業、未分類其他食品、飲料及箊草製品零售",
+        "contact": "鄭育明\n尤玉慧",
+        "telephone": "2711-5842\n2740-7418",
+        "address.1": "臺北市大安區建國南路、濟南路口高架橋下",
+        "lng": 121.53477,
+        "lat": 25.02634
+      },
+      "geometry": { "type": "Point", "coordinates": [121.53477, 25.02634] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "光仁二手商品館大直店\n(捷運大直庇護工場)",
+        "type": "綜合障別",
+        "business item": "零售業",
+        "contact": "謝佩樺",
+        "telephone": "8509-8601",
+        "address.1": "臺北市中山區北安路534-1號",
+        "lng": 121.54688000751048,
+        "lat": 25.079660003576265
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.546880007510481, 25.079660003576265]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "育成蕃薯藤\n(忠孝庇護工場)",
+        "type": "綜合障別",
+        "business item": "餐飲業、西點麵包零售、清潔用品零售業、未分類其他食品、飲料及箊草製品零售",
+        "contact": "黃正珀",
+        "telephone": "2752-1785",
+        "address.1": "臺北市大安區建國南路一段181號",
+        "lng": 121.53769000504992,
+        "lat": 25.040560017824436
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.537690005049924, 25.040560017824436]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "地熱谷小舖\n(地熱谷庇護工場)",
+        "type": "綜合障別",
+        "business item": "零售業",
+        "contact": "趙哲晨",
+        "telephone": "2895-0556",
+        "address.1": "臺北市北投區中山路30-10號2樓",
+        "lng": 121.51142003085069,
+        "lat": 25.137820018053901
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.511420030850687, 25.137820018053901]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "愛不囉嗦庇護工場南港店\n(捷運南港展覽館庇護工場)",
+        "type": "綜合障別",
+        "business item": "食品製造業、零售業?",
+        "contact": "王文芳",
+        "telephone": "2653-8321",
+        "address.1": "臺北市南港區研究院路1段1號B2(捷運南港展覽館站6號出口內)",
+        "lng": 121.61669754034349,
+        "lat": 25.054881438952428
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.616697540343495, 25.054881438952428]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "樂芽永續股份有限公司青年1庇護工場",
+        "type": "綜合障別",
+        "business item": "食品製造業、批發及零售業",
+        "contact": "倪佩玲",
+        "telephone": "7752-2518",
+        "address.1": "臺北市萬華區青年路152巷6號",
+        "lng": 121.50210999953656,
+        "lat": 25.02123000799736
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.502109999536557, 25.02123000799736]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "樂芽永續股份有限公司青年2庇護工場",
+        "type": "綜合障別",
+        "business item": "食品製造業、批發及零售業",
+        "contact": "倪佩玲",
+        "telephone": "7752-2518",
+        "address.1": "臺北市萬華區青年路152巷14號",
+        "lng": 121.50195996346974,
+        "lat": 25.02106999746573
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.501959963469744, 25.02106999746573]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "光仁選品萬大店\n(萬大庇護工場)",
+        "type": "綜合障別",
+        "business item": "零售業",
+        "contact": "林立婷",
+        "telephone": "2305-0025",
+        "address.1": "臺北市萬華區萬大路423巷38號",
+        "lng": 121.49991000141011,
+        "lat": 25.021080013840034
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.499910001410115, 25.021080013840034]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "第一輔具庇護工場\n(國光國宅庇護工場)",
+        "type": "綜合障別",
+        "business item": "輔具清潔、販售",
+        "contact": "徐佩珊",
+        "telephone": "2303-3366",
+        "address.1": "臺北市萬華區國興路22、24號1樓",
+        "lng": 121.50806382687961,
+        "lat": 25.024479592658501
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.508063826879606, 25.024479592658501]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "神腦國際手機維修庇護工場",
+        "type": "綜合障別",
+        "business item": "個人及家庭用品維修業、零售業",
+        "contact": "郭家銘",
+        "telephone": "2718-6060",
+        "address.1": "臺北市松山區民權東路3段102號1樓",
+        "lng": 121.54471999106217,
+        "lat": 25.061900008032978
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.544719991062166, 25.061900008032978]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "臺北榮民總醫院附設庇護工場",
+        "type": "綜合障別",
+        "business item": "餐飲業、清潔服務業、零售業",
+        "contact": "江明潔",
+        "telephone": "2875-7027\n轉570",
+        "address.1": "臺北市北投區石牌路2段201號",
+        "lng": 121.52141000215028,
+        "lat": 25.11985998839134
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.521410002150276, 25.11985998839134]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "財團法人伊甸社會福利基金會附設阿萬師清潔工作隊",
+        "type": "綜合障別",
+        "business item": "清潔服務業",
+        "contact": "蔡依靜",
+        "telephone": "2230-6670\n轉3405",
+        "address.1": "臺北市文山區萬美街一段55號3樓之7",
+        "lng": 121.56812000161416,
+        "lat": 25.002329989803169
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.568120001614162, 25.002329989803169]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "臺北醫學大學附設醫院樂活屋庇護商店",
+        "type": "綜合障別",
+        "business item": "零售業",
+        "contact": "邱晨瑜",
+        "telephone": "2737-2181\n轉3665",
+        "address.1": "臺北市信義區吳興街252號",
+        "lng": 121.56363995818587,
+        "lat": 25.026630007208624
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.563639958185874, 25.026630007208624]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "財團法人天主教光仁社會福利基金會光仁二手商品館忠孝店",
+        "type": "綜合障別",
+        "business item": "零售業",
+        "contact": "鍾任鴻",
+        "telephone": "2721-8924",
+        "address.1": "臺北市大安區忠孝東路3段217巷2弄14號",
+        "lng": 121.54051001255424,
+        "lat": 25.0422299863036
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.540510012554236, 25.0422299863036]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "財團法人伊甸社會福利基金會附設數位資料處理庇護工場",
+        "type": "綜合障別",
+        "business item": "業務及辦公室支援服務業",
+        "contact": "涂麗茹",
+        "telephone": "2230-8002",
+        "address.1": "臺北市文山區萬美街1段55號3樓之10",
+        "lng": 121.56812000161416,
+        "lat": 25.002329989803169
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.568120001614162, 25.002329989803169]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "財團法人心路社會福利基金會附設心路機動工作隊",
+        "type": "綜合障別",
+        "business item": "清潔服務、業務及辦公室支援服務業",
+        "contact": "張宜勳",
+        "telephone": "2230-6503",
+        "address.1": "臺北市文山區萬美街1段59號",
+        "lng": 121.56772001719465,
+        "lat": 25.002190012020151
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.567720017194645, 25.002190012020151]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "馬偕紀念醫院附設喜樂工作坊",
+        "type": "綜合障別",
+        "business item": "餐飲業、零售業",
+        "contact": "王昔珍",
+        "telephone": "2543-3535\n轉3692",
+        "address.1": "臺北市中山區中山北路2段92號福音樓3樓",
+        "lng": 121.52255999926598,
+        "lat": 25.058880008318862
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.52255999926598, 25.058880008318862]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "糕菲庇護工場",
+        "type": "綜合障別",
+        "business item": "食品製造業、其他餐飲業",
+        "contact": "王淑真",
+        "telephone": "2785-2499",
+        "address.1": "臺北市內湖區行愛路140巷25號",
+        "lng": 121.5793899733477,
+        "lat": 25.0636100000998
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.579389973347702, 25.0636100000998]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "台北市康復之友協會附設勞務服務中心",
+        "type": "綜合障別",
+        "business item": "清潔服務業",
+        "contact": "洪國維",
+        "telephone": "2765-2810\n轉262",
+        "address.1": "臺北市松山區八德路4段604號2樓之6",
+        "lng": 121.5727000411473,
+        "lat": 25.04977998558887
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.5727000411473, 25.04977998558887]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "曦望數位設計印刷庇護工場",
+        "type": "綜合障別",
+        "business item": "產品設計業、排版業、資料處理服務業、影印業、文具零售業、日常用品零售業、理貨包裝業",
+        "contact": "夏逸梅",
+        "telephone": "2309-3138\n轉17",
+        "address.1": "臺北市萬華區西園路2段261巷12弄44號1樓及279-9號1樓",
+        "lng": 121.4919000032786,
+        "lat": 25.024749988235879
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.491900003278602, 25.024749988235879]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "台北市自閉症家長協會附設小貝殼工作坊",
+        "type": "綜合障別",
+        "business item": "其他全新商品零售業",
+        "contact": "廖秀麗",
+        "telephone": "2595-3954",
+        "address.1": "臺北市大同區酒泉街195號",
+        "lng": 121.51202998194476,
+        "lat": 25.07219998402158
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.512029981944764, 25.07219998402158]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "臺北市立聯合醫院附設庇護工場",
+        "type": "綜合障別",
+        "business item": "餐飲業、零售業",
+        "contact": "傅筠惠",
+        "telephone": "2709-3600\n轉5113、3245",
+        "address.1": "臺北市大安區仁愛路4段10號醫療大樓2樓、南棟6樓",
+        "lng": 121.54562003982517,
+        "lat": 25.037660005054281
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.545620039825167, 25.037660005054281]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "三軍總醫院北投分院附設庇護工場",
+        "type": "綜合障別",
+        "business item": "清潔服務業、零售業",
+        "contact": "邱泰楨",
+        "telephone": "2895-9808\n轉603128",
+        "address.1": "臺北市北投區新民路60號",
+        "lng": 121.50971003878384,
+        "lat": 25.139849989274449
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.509710038783837, 25.139849989274449]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "傳玻者文創設計中心",
+        "type": "綜合障別",
+        "business item": "其他專門設計業",
+        "contact": "余玉蓮",
+        "telephone": "2881-2895",
+        "address.1": "臺北市大同區民族西路162巷2、4號1樓",
+        "lng": 121.51535581845302,
+        "lat": 25.068553533668169
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.515355818453017, 25.068553533668169]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "勝利資訊數位辨識處理中心",
+        "type": "綜合障別",
+        "business item": "業務及辦公室支援服務業",
+        "contact": "高季蓉",
+        "telephone": "2733-8174",
+        "address.1": "臺北市信義區基隆路2段149之17號9樓",
+        "lng": 121.55555997116284,
+        "lat": 25.026810008579321
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.555559971162836, 25.026810008579321]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "財團法人喜憨兒社會福利基金會喜憨兒烘焙屋",
+        "type": "綜合障別",
+        "business item": "食品製造業",
+        "contact": "邱小姐\n劉小姐\n吳小姐",
+        "telephone": "光復2725-2759\n中華2344-4265\n勞保2391-9389",
+        "address.1": "臺北市信義區光復南路461號",
+        "lng": 121.55768000593304,
+        "lat": 25.034199997332976
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.557680005933037, 25.034199997332976]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "財團法人台北市自閉兒社會福利基金會附設愛肯樂活工場",
+        "type": "綜合障別",
+        "business item": "飲食成品、零售業",
+        "contact": "卓佳怡",
+        "telephone": "2599-3803",
+        "address.1": "臺北市大同區甘谷街16號2樓",
+        "lng": 121.51120000589231,
+        "lat": 25.052710005572397
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.511200005892306, 25.052710005572397]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "勝利數位設計印刷中心",
+        "type": "綜合障別",
+        "business item": "印刷及其輔助業、文具批發業",
+        "contact": "周德文",
+        "telephone": "2754-0526",
+        "address.1": "臺北市大安區和平東路2段53巷2號9樓",
+        "lng": 121.53841001053269,
+        "lat": 25.02579001478189
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.538410010532687, 25.02579001478189]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "新品文具庇護工場",
+        "type": "綜合障別",
+        "business item": "文具製造業、文具批發業",
+        "contact": "彭中興",
+        "telephone": "2889-1155",
+        "address.1": "臺北市士林區承德路4段180號3樓",
+        "lng": 121.52252999205264,
+        "lat": 25.086800002067719
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.52252999205264, 25.086800002067719]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "勝利便利商店松醫店",
+        "type": "綜合障別",
+        "business item": "零售業",
+        "contact": "張佩鈴",
+        "telephone": "7723-0420",
+        "address.1": "臺北市松山區健康路158號",
+        "lng": 121.55787999814277,
+        "lat": 25.053439985519944
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.557879998142766, 25.053439985519944]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "愛不囉嗦庇護工場",
+        "type": "綜合障別",
+        "business item": "食品製造業、零售業",
+        "contact": "郭麗玉",
+        "telephone": "2586-9321",
+        "address.1": "臺北市大同區承德路3段212之5號1樓",
+        "lng": 121.51806000690816,
+        "lat": 25.071279986329049
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.518060006908158, 25.071279986329049]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "伊果文創印刷庇護工場",
+        "type": "綜合障別",
+        "business item": "印刷及其輔助業、其他專門設計業",
+        "contact": "林子馨",
+        "telephone": "2939-2169",
+        "address.1": "臺北市文山區保儀路9號4樓",
+        "lng": 121.56825000493239,
+        "lat": 24.986919986543668
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.568250004932395, 24.986919986543668]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "第一物業管理庇護工場",
+        "type": "綜合障別",
+        "business item": "清潔服務、複合支援服務業",
+        "contact": "黃荷麗\n",
+        "telephone": "2722-4136\n轉879",
+        "address.1": "臺北市文山區萬隆街54號1樓",
+        "lng": 121.5373500350571,
+        "lat": 25.000719993841244
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.537350035057102, 25.000719993841244]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "勝利便利商店敦中店",
+        "type": "綜合障別",
+        "business item": "零售業",
+        "contact": "李其叡",
+        "telephone": "7713-7209",
+        "address.1": "臺北市松山區敦化北路4巷1號",
+        "lng": 121.54734000635676,
+        "lat": 25.050059983064443
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.547340006356762, 25.050059983064443]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "財團法人台北市勝利社會福利事業基金會SUBWAY仁愛延吉店",
+        "type": "綜合障別",
+        "business item": "餐飲業",
+        "contact": "王書毅",
+        "telephone": "2702-3652",
+        "address.1": "臺北市大安區延吉街228巷3號1樓",
+        "lng": 121.5553400300235,
+        "lat": 25.036939999571501
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.555340030023501, 25.036939999571501]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "樸樹咖啡",
+        "type": "綜合障別",
+        "business item": "餐飲業",
+        "contact": "孫文琪",
+        "telephone": "2306-6308",
+        "address.1": "臺北市萬華區廣州街95-1、95-2、95-3號",
+        "lng": 121.50381999160339,
+        "lat": 25.03662999488256
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.503819991603393, 25.03662999488256]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "勝利加油站\n(大安加油站)",
+        "type": "綜合障別",
+        "business item": "加油站業",
+        "contact": "李志平",
+        "telephone": "2755-5499",
+        "address.1": "臺北市大安區建國南路2段75-1號",
+        "lng": 121.53785001558153,
+        "lat": 25.030969989034801
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.537850015581526, 25.030969989034801]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "陽光加油站\n(市民加油站)",
+        "type": "綜合障別",
+        "business item": "加油站業",
+        "contact": "王顧婷",
+        "telephone": "2752-9929",
+        "address.1": "臺北市大安區建國南路1段57-1號",
+        "lng": 121.53684514372166,
+        "lat": 25.044507546410639
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.536845143721663, 25.044507546410639]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "陽光汽車美容中心\n(建和社會企業)",
+        "type": "綜合障別",
+        "business item": "汽車美容業",
+        "contact": "蔡淞梧",
+        "telephone": "2365-7791",
+        "address.1": "臺北市大安區建國南路2段280號",
+        "lng": 121.53740971420768,
+        "lat": 25.02505001846005
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.537409714207683, 25.02505001846005]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "建北加油站",
+        "type": "綜合障別",
+        "business item": "加油站業",
+        "contact": "王顧婷",
+        "telephone": "2515-0228",
+        "address.1": "臺北市中山區建國北路3段91之1號",
+        "lng": 121.53677000735736,
+        "lat": 25.065699985747088
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.536770007357362, 25.065699985747088]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "勝利廚房\n(臺北社企館1、2F)",
+        "type": "綜合障別",
+        "business item": "餐飲業",
+        "contact": "張湘蓉",
+        "telephone": "2776-6603",
+        "address.1": "臺北市中山區八德路2段174巷28號1、2樓",
+        "lng": 121.55397963156912,
+        "lat": 25.044923332363378
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.553979631569121, 25.044923332363378]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "TaipeiSESquare交流空間\n(臺北社企館3F)",
+        "type": "綜合障別",
+        "business item": "多功能會議廳、空間場地出借",
+        "contact": "魏淑宜",
+        "telephone": "8772-6020",
+        "address.1": "臺北市中山區八德路2段174巷28號3樓",
+        "lng": 121.53818001110956,
+        "lat": 25.045260002391998
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.53818001110956, 25.045260002391998]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "黑暗對話社會企業股份有限公司(臺北社企館4F)",
+        "type": "綜合障別",
+        "business item": "教育課程",
+        "contact": "李芳琦",
+        "telephone": "8772-3100",
+        "address.1": "臺北市中山區八德路2段174巷28號4樓",
+        "lng": 121.53818001110956,
+        "lat": 25.045260002391998
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.53818001110956, 25.045260002391998]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "視障者音樂發展中心\n(臺北社企館5F)",
+        "type": "綜合障別",
+        "business item": "藝文服務、文教服務、樂器/育樂用品出租銷售",
+        "contact": "謝佩君",
+        "telephone": "7730-7388\n轉102",
+        "address.1": "臺北市中山區八德路2段174巷28號5樓",
+        "lng": 121.53818001110956,
+        "lat": 25.045260002391998
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.53818001110956, 25.045260002391998]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 112,
+        "name": "陽光活力中心八德館\n(臺北社企館6、7F)",
+        "type": "綜合障別",
+        "business item": "運動、輕食飲料、運動相關百貨零售",
+        "contact": "李政寧",
+        "telephone": "2772-8816",
+        "address.1": "臺北市中山區八德路2段174巷28號6、7樓",
+        "lng": 121.55397963156912,
+        "lat": 25.044923332363378
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.553979631569121, 25.044923332363378]
+      }
+    }
+  ]
 }
