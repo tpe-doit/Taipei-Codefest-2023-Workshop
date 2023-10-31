@@ -1,0 +1,98 @@
+{
+	"201": {
+		"id": 201,
+		"index": "disable_subsidy",
+		"history_data": true,
+		"chart_config": {
+			"types": ["TimelineSeparateChart", "TimelineStackedChart"],
+			"color": ["#7CB4B8", "#70F8BA", "#CAFE48"],
+			"unit": "元"
+		},
+		"name": "身障福利服務補助金額",
+		"source": "社會局",
+		"time_from": "2012-01-01T00:00:00+08:00",
+		"time_to": "2022-01-01T00:00:00+08:00",
+		"update_freq": 1,
+		"update_freq_unit": "year",
+		"short_desc": "",
+		"long_desc": "",
+		"use_case": "",
+		"tags": [],
+		"links": [
+			"https://data.taipei/dataset/detail?id=6079d6e8-7657-4007-b1c2-429733dbd762"
+		],
+		"contributors": ["tuic"]
+	},
+	"202": {
+		"id": 202,
+		"index": "disable_facility",
+		"map_config": [
+			{
+				"index": "dis_origin_radius",
+				"paint": {
+					"line-color": "#B4654A",
+					"line-dasharray": [2, 2],
+					"line-opacity": 0.8
+				},
+				"property": [
+					{ "key": "name", "name": "機構名稱" },
+					{ "key": "attr", "name": "營運模式" },
+					{ "key": "type", "name": "類型" },
+					{ "key": "address", "name": "地址" }
+				],
+				"title": "身障友善場所服務範圍",
+				"type": "line"
+			},
+			{
+				"index": "dis_origin_center",
+				"paint": {
+					"circle-color": "pink"
+				},
+				"property": [
+					{ "key": "name", "name": "機構名稱" },
+					{ "key": "attr", "name": "營運模式" },
+					{ "key": "type", "name": "類型" },
+					{ "key": "address", "name": "地址" }
+				],
+				"title": "身障友善場所",
+				"type": "circle"
+			}
+		],
+		"chart_config": {
+			"types": ["DistrictChart", "ColumnChart"],
+			"color": ["#B4654A"],
+			"unit": "間",
+			"map_filter": [
+				"town",
+				[
+					"北投區",
+					"士林區",
+					"內湖區",
+					"南港區",
+					"松山區",
+					"信義區",
+					"中山區",
+					"大同區",
+					"中正區",
+					"萬華區",
+					"大安區",
+					"文山區"
+				]
+			]
+		},
+		"name": "身障友善場所量能分布",
+		"source": "社會局",
+		"time_from": "2023-06-11T00:00:00+08:00",
+		"update_freq": 1,
+		"update_freq_unit": "month",
+		"short_desc": "",
+		"long_desc": "",
+		"use_case": "",
+		"tags": [],
+		"links": [
+			"https://data.taipei/dataset/detail?id=06a3d0c3-1949-4501-b16f-a0c4c036e2d5",
+			"https://data.taipei/dataset/detail?id=3c0cd5aa-ad4b-4695-b197-f9eb3405e556"
+		],
+		"contributors": ["tuic"]
+	}
+}

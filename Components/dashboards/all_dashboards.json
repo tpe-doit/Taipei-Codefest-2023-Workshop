@@ -1,0 +1,6 @@
+{
+	"name": "Demo",
+	"index": "demo",
+	"components": ["201", "202"],
+	"icon": "star_half"
+}
