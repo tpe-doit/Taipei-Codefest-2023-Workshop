@@ -1,13 +1,61 @@
+
+import os
+import requests
+import re
+import json
+import datetime
+import pytz
+import pickle
 import pandas as pd
 import geopandas as gpd
 from numpy import nan
 from shapely.geometry import Polygon, multilinestring, MultiLineString, LineString
-import re
-import json
-import requests
-import datetime
-import pytz
 taipei_tz = pytz.timezone('Asia/Taipei')
+
+
+class TDX_AUTH():
+    '''
+    Get TDX API token
+    Optimize token access by obtaining it once, saving it as a pickle file,
+    and refreshing it only when it has expired.
+    '''
+    def __init__(self):
+        self.client_id = '[your_tdx_client_id]'
+        self.client_secret = '[your_tdx_client_secret]'
+
+    def get_token(self, token_path):
+        
+        now_time = datetime.datetime.now()
+        if os.path.exists(token_path):
+            with open(token_path, 'rb') as handle:
+                res = pickle.load(handle)
+
+            if res:
+                expired_time = res['expired_time']
+                not_expired = (now_time < expired_time)
+                if not_expired:
+                    token = res['access_token']
+                    return token
+
+        token_url = 'https://tdx.transportdata.tw/auth/realms/TDXConnect/protocol/openid-connect/token'
+        headers = {'content-type': 'application/x-www-form-urlencoded'}
+        data = {
+            'grant_type': 'client_credentials',
+            'client_id': self.client_id,
+            'client_secret': self.client_secret
+        }
+        
+        response = requests.post(token_url, headers=headers, data=data)
+        res_json = response.json()
+        # print(response.status_code)
+        # print(response.json())
+        token = res_json['access_token']
+        expired_time = now_time + datetime.timedelta(seconds=res_json['expires_in'])
+        res = {'access_token': token, 'expired_time': expired_time}
+        with open(token_path, 'wb') as handle:
+            pickle.dump(res, handle)
+            
+        return token
 
 
 def to_time_contain_chinese_string(x):
@@ -145,10 +193,13 @@ def _standardize_time_string(column, from_format):
     return datetime_col
 
 
-def convert_str_to_time_format(column: pd.Series, from_format=None,
-                               output_level='datetime', output_type='time',
-                               is_utc=False, from_timezone='Asia/Taipei'
-                               ) -> pd.Series:
+def convert_str_to_time_format(
+    column: pd.Series,
+    from_format=None,
+    output_level='datetime',
+    output_type='time',
+    is_utc=False, from_timezone='Asia/Taipei'
+    ) -> pd.Series:
     '''
     時間處理 function
     Input should be pd.Series with string.
@@ -210,104 +261,6 @@ def convert_str_to_time_format(column: pd.Series, from_format=None,
     return column
 
 
-def convert_to_float(column):
-    '''
-    無論原本欄位的格式，轉成float格式
-
-    Example
-    ----------
-    data = pd.DataFrame({'name': ['a', 'b', 'c', 'd'],
-                         'type': ['A', 'B', 'C', 'D']})
-    x = pd.Series([121.123, 123.321, '', None])
-    y = pd.Series([25.123, 26.321, None, ''])
-    xx = convert_to_float(x)
-    gdf = add_point_wkbgeometry_column_to_df(data, x, y, from_crs=4326)
-
-    x = pd.Series([262403.2367, 481753.6091, '', None])
-    y = pd.Series([2779407.0527, 2914189.1837, None, ''])
-    convert_to_float(x)
-    convert_to_float(y)
-    '''
-    try:
-        column = column.astype(float)
-    except ValueError:
-        is_empty = (column=='')
-        is_na = pd.isna(column)
-        column.loc[is_empty|is_na] = nan
-        column = column.astype(float)
-    return column
-
-
-def get_tpe_now_time_str():
-    '''
-    Get now time with tz = 'Asia/Taipei'.
-    Output is a string truncate to seconds.
-    output Example: '2022-09-21 17:56:18'
-
-    Example
-    ----------
-    get_tpe_now_time_str()
-    '''
-    now_time = str(datetime.datetime.now(tz=taipei_tz)).split('.')[0]
-    return now_time
-
-
-def get_datataipei_data_updatetime(url):
-    '''
-    Request lastest update time of given data.taipei url.
-    Output is a string truncate to seconds.
-    output Example: '2022-09-21 17:56:18'
-
-    Example
-    ----------
-    url = 'https://data.taipei/api/frontstage/tpeod/dataset/change-history.list?id=4fefd1b3-58b9-4dab-af00-724c715b0c58'
-    get_datataipei_data_updatetime(url)
-    '''
-    # 抓data.taipei的更新時間
-    res = requests.get(url)
-    update_history = json.loads(res.text)
-    lastest_update = update_history['payload'][0]
-    lastest_update_time = lastest_update.split('更新於')[-1]
-    return lastest_update_time.strip()
-
-
-def get_datataipei_data_file_last_modeified_time(url, rank=0):
-    '''
-    Request lastest modeified time of given data.taipei url.
-    Output is a string truncate to seconds.
-    The json can contain more than one data last modifytime, "rank" para chose which one.
-    output Example: '2022-09-21 17:56:18'
-
-    Example
-    ----------
-    '''
-    # 抓data.taipei的更新時間
-    res = requests.get(url)
-    data_info = json.loads(res.text)
-    lastest_modeified_time = data_info['payload']['resources'][rank]['last_modified']
-    return lastest_modeified_time
-
-
-def linestring_to_multilinestring(geo):
-    '''
-    將LineString轉換為MultiLineString
-
-    Example
-    ----------
-    line_a = LineString([[0,0], [1,1]])
-    line_b = LineString([[1,1], [1,0]])
-    multi_line = MultiLineString([line_a, line_b])
-    linestring_to_multilinestring(None)
-    type(linestring_to_multilinestring(multi_line))
-    type(linestring_to_multilinestring(line_a))
-    '''
-    is_multistring = (type(geo)==multilinestring.MultiLineString)
-    is_na = pd.isna(geo)
-    if (is_multistring) or (is_na):
-        return geo
-    else:
-        return MultiLineString([geo])
-
 def get_datataipei_api(rid):
     '''
     Get Data.taipei API，自動遍歷所有資料。
@@ -327,45 +280,3 @@ def get_datataipei_api(rid):
         res.extend(get_json['result']['results'])
     return pd.DataFrame(res)
 
-
-def given_string_to_none(input_str, given_str, mode='start'):
-    '''
-    輸入任意string，若符合指定文字，則轉成None，不符合則保持原樣
-    此funciton能igonre data type的問題
-
-    Example
-    ----------
-    given_string_to_none('-990.00', '-99')
-    given_string_to_none('-90.00', '-99')
-    given_string_to_none('-990.00', '-99', mode='end')
-    given_string_to_none('-990.00', '-99', mode='test')
-    '''
-    if mode == 'start':
-        try:
-            is_target = input_str.startswith(given_str)
-        except:
-            is_target = False
-    elif mode == 'end':
-        try:
-            is_target = input_str.endswith(given_str)
-        except:
-            is_target = False
-    else:
-        is_target = False
-
-    if is_target:
-        return None
-    else:
-        return input_str
-
-
-def get_tpe_now_time_timestamp(minutes_delta=None):
-    '''
-    Get now time with tz = 'Asia/Taipei'.
-    '''
-    from datetime import datetime, timedelta
-    if minutes_delta:
-        now_timestamp = (datetime.now(tz=taipei_tz)+timedelta(minutes=minutes_delta)).timestamp() * 1e3
-    else:
-        now_timestamp = datetime.now(tz=taipei_tz).timestamp() * 1e3
-    return now_timestamp
